@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tarefa 1 - Módulo 1</title>
+    </head>
+    <body>
+        <!-- Crie uma página composta por cabeçalho, corpo e rodapé. 
+         Inclua sessões de texto na página que possam ser acessadas através de links 
+         do header. Um dos links deverá levar para sessão que contenha um vídeo, 
+         inserido na página com as devidas tags do HTML, e que deve apresentar 
+         controles de play, volume, etc. O link do GitHub deve ser postado nos 
+         comentários. -->
+        <header>
+            <figure>
+                <img src="./foto-minha.jpg" alt="Foto minha" height="200px">
+            </figure>
+            <h1>Conheça Eduarda Guimarães!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre-mim">Sobre mim</a></li>
+                    <li><a href="#tecnologias">Tecnologias</a></li>
+                    <li><a href="#meus-projetos">Meus Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="sobre-mim">
+                <h2>Sobre mim</h2>
+                <article>
+                    Sou estudante da Escola Técnica Estadual Monteiro Lobato, onde curso o técnico em Informática. <br/> 
+                    Atuo como <b>desenvolvedora full-stack com paixão por tecnologia, inteligência artificial e desenvolvimento web</b>.
+                    Estou sempre buscando aprender algo novo, resolver desafios com criatividade e colaborar em projetos que causem impacto 
+                    positivo na vida das pessoas.
+                </article>
+                <div>
+                    <h3>Áudio de apresentação pessoal</h3>
+                    <audio controls="controls">
+                        <source src="./audio.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </section>
+            <hr>
+            <section id="tecnologias">
+                <h2>Tecnologias que utilizo</h2>
+                <ul>
+                    <li class="a">HTML</li>
+                    <li class="a">CSS</li>
+                    <li class="a">JavaScript</li>
+                    <li class="a">React</li>
+                    <li class="a">Node.js</li>
+                    <li class="a">Bootstrap</li>
+                    <li class="a">Python</li>
+                    <li class="a">C</li>
+                    <li class="a">C#</li>
+                    <li class="a">Java</li>
+                </ul>
+                <article>
+                    Tenho experiência prática com <i>diversas tecnologias</i>, incluindo React, JavaScript, Node.js, Firebase, HTML, CSS, Bootstrap, 
+                    Python, C, C# e Java. Também gosto muito da área de bancos de dados, tanto SQL (como MySQL) quanto NoSQL (como Firestore), 
+                    com foco em modelagem e integração. 
+                </article>
+            </section>
+            <hr>
+            <section id="meus-projetos">
+                <h2>Meus Projetos</h2>
+                <h3>Vocational Test</h3>
+                <article>
+                    Plataforma de teste vocacional com IA, desenvolvida como TCC 
+                    no curso técnico. Utiliza <b>React, Firebase e OpenAI.</b>
+                </article>
+                <h4>Vídeo de demonstração do projeto</h3>
+                <video controls="controls" height="200px">
+                    <source src="./video.mp4" type="video/mp4">
+                </video>
+                <div>Acesse-o com apenas um clique: <a href="https://www.vocationaltest.com.br" target="_blank">Vocational Test</a></div>
+            </section>
+            <hr>
+        </main>
+        <footer id="contato">
+            <h3>Contatos</h3>
+                <ul>
+                    <li>E-mail: aeduardaguimaraes@gmail.com</li>
+                    <li>Linkedin: <a href="https://linkedin.com/in/eduarda-guimarães-75a8462b1" target="_blank">linkedin.com/in/eduarda-guimarães-75a8462b1</a></li>
+                    <li>Github: <a href="https://github.com/eduarda-guimaraes" target="_blank">github.com/eduarda-guimaraes</a></li>
+                </ul>
+        </footer>
+    </body>
+</html>
