@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 20px solid purple;
+}
+
+h1{
+    color: purple;
+    margin-bottom: 2%;
+}
+
+.content{
+    text-align: center;
+}
+
+.content > button{
+    background: none;
+    border: 2px solid purple; 
+    padding: 2%;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.content > button:hover{
+    background-color: purple;
+    color: white;
+}
